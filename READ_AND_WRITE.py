@@ -8,8 +8,8 @@ import time
 import os
 
 #accepting input for the file name
-name=input("     Type any file name    ")
-name=str(name)
+name = input("     Type any file name    ")
+name = str(name)
 
 print("  What file extension ")
 
@@ -18,8 +18,8 @@ print("2. Pdf file,(.pdf)")
 print("3. Others file,")
 
 #file extension options
-option=input(" Pick One  :  ")
-option=int(option)
+option = input(" Pick One   :  ")
+option = int(option)
 
 
 #if statements for the options
@@ -36,10 +36,10 @@ elif option != int or option <= 4:
 
 
 
-createfile=open(filename,'a')
-Words=input("Type in All your Words : ")
-createfile.write(Words)
-createfile.close()
+create_file = open(filename,'a')
+Words = input("Type in All your Words : ")
+create_file.write(Words)
+create_file.close()
 
 
 print(createfile)
